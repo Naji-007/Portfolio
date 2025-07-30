@@ -1,0 +1,9 @@
+
+{
+  "homepage": "https://Durai-Murugan-DA.github.io/Portfolio",
+  "scripts_to_add": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "instructions": "Add the 'homepage' field at the top level of your package.json (outside scripts), and add the predeploy and deploy scripts inside your existing scripts section."
+}
